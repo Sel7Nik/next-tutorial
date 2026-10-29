@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 const AboutPage = () => {
   return (
     <section className="content">
@@ -7,6 +9,11 @@ const AboutPage = () => {
         et blanditiis. Quae sequi reprehenderit dolorum repudiandae quas rem quam error, id quidem! Accusamus nihil eos,
         quod cum ad alias laborum itaque architecto corporis debitis aspernatur.
       </p>
+      {/* <img src="./1200x900.webp" alt="blue car" /> */}
+
+      <Image src="/1200x900.webp" alt="blue car" width="600" height="450" priority />
+      <br />
+      <Image src="/1200x900.webp" alt="blue car" width="600" height="450" priority />
     </section>
   )
 }
