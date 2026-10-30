@@ -1,3 +1,5 @@
+import Button from '@/components/Button'
+
 export default function Home() {
   return (
     <section className="content">
@@ -6,6 +8,7 @@ export default function Home() {
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque illum sed sint laborum vero obcaecati et omnis,
         ipsa temporibus suscipit ullam officia, dolore, asperiores autem.
       </p>
+      <Button />
     </section>
   )
 }
